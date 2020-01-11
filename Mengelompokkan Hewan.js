@@ -17,7 +17,7 @@ function groupAnimals(animals) {
         if (firstAnimals[0] === otherAnimals[0]) {    
             result[index].push(otherAnimals);
         } else if (firstAnimals[0] !== otherAnimals[0]) {
-         index++                 
+            index++                 
             result.push([]);
             result [index].push(otherAnimals);    
         }
